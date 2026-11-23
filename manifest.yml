@@ -15,6 +15,7 @@ plugin:
 base_config:
   - name: zotero
     group: zotero
+    require_system_right: system.config
     parameters:
       apikey:
         type: text
